@@ -106,3 +106,12 @@ button:focus {
 .team-member--position {
   text-align: center;
 }
+
+.page-footer {
+  background-color: #2E2F42;
+  color: #FFFFFF;
+}
+
+.page-footer .logo {
+  color: #FFFFFF;
+}
