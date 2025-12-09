@@ -80,3 +80,29 @@ button:focus {
   text-align: center;
   color: #FFFFFF;
 }
+
+.team-section {
+  background-color: #F4F4FD;
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.111;
+  text-align: center;
+  color: #2E2F42;
+}
+
+.team-member-list > li {
+  background-color: #FFFFFF;
+}
+
+.team-member--name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.team-member--position {
+  text-align: center;
+}
