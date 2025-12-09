@@ -3,7 +3,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: #434455;
   background-color: #FFFFFF;
 }
@@ -12,7 +12,7 @@ a {
   font-style: normal;
   font-size: 12px;
   line-height: 1.333;
-  letter-spacing: 4%;
+  letter-spacing: 0.04em;
   color: #2E2F42;
   text-decoration: none;
 }
@@ -35,7 +35,7 @@ button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 4%;
+  letter-spacing: 0.04em;
   background-color: #4D5AE5;
   color: #FFFFFF;
   cursor: pointer;
@@ -46,25 +46,27 @@ button:focus {
   background-color: #404BBF;
 }
 
+h1, h2, h3 {
+  letter-spacing: 0.02em;
+  color: #2E2F42;
+}
+
 h1 {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.071;
-  color: #2E2F42;
 }
 
 h2 {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.111;
-  color: #2E2F42;
 }
 
 h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  color: #2E2F42;
 }
 
 .logo {
@@ -72,12 +74,16 @@ h3 {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.1666;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2E2F42;
 }
 
-.logo--accent {
+.logo--dark {
+  color: #F4F4FD;
+}
+
+.logo__accent {
   color: #4D5AE5;
 }
 
@@ -85,11 +91,13 @@ h3 {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .contact-link {
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .hero-section {
@@ -113,16 +121,12 @@ h3 {
   background-color: #FFFFFF;
 }
 
-.team-member--name,
-.team-member--position {
+.team-member__name,
+.team-member__position {
   text-align: center;
 }
 
 .page-footer {
   background-color: #2E2F42;
-  color: #FFFFFF;
-}
-
-.page-footer .logo {
-  color: #FFFFFF;
+  color: #F4F4FD;
 }
