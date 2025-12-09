@@ -45,6 +45,27 @@ button:focus {
   background-color: #404BBF;
 }
 
+h1 {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.071;
+  color: #2E2F42;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.111;
+  color: #2E2F42;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2E2F42;
+}
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -75,8 +96,6 @@ button:focus {
 }
 
 .page-title {
-  font-size: 56px;
-  line-height: 1.071;
   text-align: center;
   color: #FFFFFF;
 }
@@ -86,10 +105,7 @@ button:focus {
 }
 
 .section-title {
-  font-size: 36px;
-  line-height: 1.111;
   text-align: center;
-  color: #2E2F42;
 }
 
 .team-member-list > li {
