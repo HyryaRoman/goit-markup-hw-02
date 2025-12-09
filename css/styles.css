@@ -38,6 +38,7 @@ button {
   letter-spacing: 4%;
   background-color: #4D5AE5;
   color: #FFFFFF;
+  cursor: pointer;
 }
 
 button:hover,
