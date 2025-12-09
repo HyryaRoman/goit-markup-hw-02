@@ -8,25 +8,6 @@ body {
   background-color: #FFFFFF;
 }
 
-a {
-  font-style: normal;
-  font-size: 12px;
-  line-height: 1.333;
-  letter-spacing: 0.04em;
-  color: #2E2F42;
-  text-decoration: none;
-}
-
-a:hover,
-a:focus {
-  color: #404BBF;
-}
-
-a:active {
-  color: #404BBF;
-  text-decoration: underline;
-}
-
 ul {
   list-style-type: none;
 }
@@ -71,12 +52,14 @@ h3 {
 
 .logo {
   font-family: "Raleway", sans-serif;
+  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.1666;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2E2F42;
+  text-decoration: none;
 }
 
 .logo--dark {
@@ -88,16 +71,32 @@ h3 {
 }
 
 .nav-link {
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #2E2F42;
+  text-decoration: none;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #404BBF;
 }
 
 .contact-link {
+  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #2E2F42;
+  text-decoration: none;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: #404BBF;
 }
 
 .hero-section {
