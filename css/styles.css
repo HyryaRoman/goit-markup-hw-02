@@ -3,7 +3,6 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #434455;
   background-color: #FFFFFF;
 }
@@ -50,6 +49,10 @@ h3 {
   line-height: 1.2;
 }
 
+p {
+  letter-spacing: 0.02em;
+}
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -90,7 +93,7 @@ h3 {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2E2F42;
+  color: #434455;
   text-decoration: none;
 }
 
